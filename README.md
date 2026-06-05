@@ -33,7 +33,7 @@ To implement a complete user management and access control system for a simulate
 
 #### Create Individual Users
 ┌──(kali㉿Kali)-[~]
-└─$ 
+└─$ \
 sudo useradd -m -s /bin/bash alice_m
 sudo useradd -m -s /bin/bash bob_m \
 sudo useradd -m -s /bin/bash carol_m \
@@ -42,7 +42,7 @@ sudo useradd -m -s /bin/bash emma_m
 
 #### Create and Secure Personal Files
 ┌──(kali㉿Kali)-[~]
-└─$ 
+└─$ \
 echo "alice_m:password123" | sudo chpasswd
 echo "bob_m:password123" | sudo chpasswd \
 echo "carol_m:password123" | sudo chpasswd \
@@ -50,7 +50,7 @@ echo "david_m:password123" | sudo chpasswd \
 echo "emma_m:password123" | sudo chpasswd
 
 ┌──(kali㉿Kali)-[~]
-└─$ 
+└─$ \
 sudo usermod -aG marketing alice_m
 sudo usermod -aG marketing bob_m \
 sudo usermod -aG marketing carol_m \
@@ -58,7 +58,7 @@ sudo usermod -aG marketing david_m \
 sudo usermod -aG marketing emma_m
 
 ┌──(kali㉿Kali)-[~]
-└─$ 
+└─$ \
 sudo touch /home/shared/marketing/alice_report.txt                 
 sudo touch /home/shared/marketing/bob_report.txt \
 sudo touch /home/shared/marketing/carol_report.txt \
@@ -66,7 +66,7 @@ sudo touch /home/shared/marketing/david_report.txt \
 sudo touch /home/shared/marketing/emma_report.txt
 
 ┌──(kali㉿Kali)-[~]
-└─$ 
+└─$ \
 sudo chown alice_m:marketing /home/shared/marketing/alice_report.txt    
 sudo chown bob_m:marketing /home/shared/marketing/bob_report.txt \
 sudo chown carol_m:marketing /home/shared/marketing/carol_report.txt \
@@ -74,7 +74,7 @@ sudo chown david_m:marketing /home/shared/marketing/david_report.txt \
 sudo chown emma_m:marketing /home/shared/marketing/emma_report.txt
 
 ┌──(kali㉿Kali)-[~]
-└─$ 
+└─$ \
 sudo chmod 700 /home/shared/marketing/alice_report.txt                  
 sudo chmod 700 /home/shared/marketing/bob_report.txt \
 sudo chmod 700 /home/shared/marketing/carol_report.txt \
@@ -92,7 +92,7 @@ sudo chmod 700 /home/shared/marketing/emma_report.txt
 └─$ sudo groupadd itdept                                                    
 
 ┌──(kali㉿Kali)-[~]
-└─$ 
+└─$ \
 sudo useradd -m -s /bin/bash frank_it                                    
 sudo useradd -m -s /bin/bash grace_it \
 sudo useradd -m -s /bin/bash henry_it \
@@ -108,7 +108,7 @@ echo "iris_it:password123" | sudo chpasswd \
 echo "jack_it:password123" | sudo chpasswd
 
 ┌──(kali㉿Kali)-[~]
-└─$ 
+└─$ \
 echo "frank_it:password123" | sudo chpasswd                              
 echo "grace_it:password123" | sudo chpasswd \
 echo "henry_it:password123" | sudo chpasswd \
