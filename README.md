@@ -59,10 +59,10 @@ sudo usermod -aG marketing emma_m
 
 ┌──(kali㉿Kali)-[~]
 └─$ 
-sudo touch /home/shared/marketing/alice_report.txt                      
-sudo touch /home/shared/marketing/bob_report.txt
-sudo touch /home/shared/marketing/carol_report.txt
-sudo touch /home/shared/marketing/david_report.txt
+sudo touch /home/shared/marketing/alice_report.txt  \                    
+sudo touch /home/shared/marketing/bob_report.txt \
+sudo touch /home/shared/marketing/carol_report.txt \
+sudo touch /home/shared/marketing/david_report.txt \
 sudo touch /home/shared/marketing/emma_report.txt
 
 ┌──(kali㉿Kali)-[~]
