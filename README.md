@@ -100,8 +100,9 @@ sudo useradd -m -s /bin/bash iris_it \
 sudo useradd -m -s /bin/bash jack_it
 
 ┌──(kali㉿Kali)-[~]
-└─$ echo "frank_it:password123" | sudo chpasswd                              
-echo "grace_it:password123" | sudo chpasswd
+└─$ 
+echo "frank_it:password123" | sudo chpasswd                              
+echo "grace_it:password123" | sudo chpasswd \
 echo "henry_it:password123" | sudo chpasswd \
 echo "iris_it:password123" | sudo chpasswd \
 echo "jack_it:password123" | sudo chpasswd
