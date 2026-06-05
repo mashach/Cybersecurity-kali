@@ -66,7 +66,8 @@ sudo touch /home/shared/marketing/david_report.txt \
 sudo touch /home/shared/marketing/emma_report.txt
 
 ┌──(kali㉿Kali)-[~]
-└─$ \
+└─$ 
+
 sudo chown alice_m:marketing /home/shared/marketing/alice_report.txt \ 
 sudo chown bob_m:marketing /home/shared/marketing/bob_report.txt \
 sudo chown carol_m:marketing /home/shared/marketing/carol_report.txt \
