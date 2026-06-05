@@ -109,8 +109,8 @@ echo "iris_it:password123" | sudo chpasswd \
 echo "jack_it:password123" | sudo chpasswd
 
 ┌──(kali㉿Kali)-[~]
-└─$ \
-echo "frank_it:password123" | sudo chpasswd \                             
+└─$ 
+echo "frank_it:password123" | sudo chpasswd                             
 echo "grace_it:password123" | sudo chpasswd \
 echo "henry_it:password123" | sudo chpasswd \
 echo "iris_it:password123" | sudo chpasswd \
